@@ -3,7 +3,11 @@ IF STATMENT:
 
 logikos sablonai
 if () {}
-if () {}
+if () {} else if {}
+if () {} else if {}
+if () {} else if {} ... else if {}
+if () {} else if {} ... else if {} else {}
+
 
 palyginimo sablonai:
 - visi: >, <, >=, <=, ==, != (ne lygu), ===, !==, !
@@ -85,13 +89,80 @@ console.log(pomidoroIlgis);
 
 console.log('------------');
 
+
 const akys = 'Rudos';
 
 if (akys === 'Melynos') {
     console.log('Oj kokie fainulkos!!!');
-} else if (akys ==='Zalios') {
-    console.log('Sexy');
-} else if (akys ==='Rudos') {
-    console.log('Melagis?');
-} else if (akys ==='Pilkos') {
-    console.log('Niekuom neipatinhi...');
+} else if ( akys === 'Zalios') {
+    console.log('Sexy 🥰😍');
+} else if (akys === 'Rudos') {
+    console.log('Melagis? 🤔');
+} else if (akys === 'Pilkos') {
+    console.log('Niekuo neypatingi...');
+} else if (akys ==='Raudonos') {
+    console.log('🤙🤙🤙');
+} else {
+    console.log('A tu turi akis?');
+}
+
+
+console.log('------------');
+
+
+/* nestintas - kai logika yra viduje. Patariama perdaug giliai nenusivaikscioti... */
+
+if (akys === 'Melynos') {
+    console.log('Oj kokie fainulkos!!!');
+} else {
+     if (akys === 'Zalios') {
+        console.log('Sexy 🥰😍');
+    } else {
+        if (akys === 'Rudos') {
+            console.log('Melagis? 🤔');
+        } else {
+            if (akys === 'Pilkos') {
+                console.log('Niekuo neypatingi...'); 
+            } else {
+                if (akys ==='Raudonos') {
+                    console.log('🤙🤙🤙');
+                } else {
+                    console.log('A tu turi akis?');
+                }
+            }
+         }   
+    }
+}
+
+
+console.log('------------');
+
+
+if (akys === 'Melynos') {
+    console.log('Oj kokie fainulkos!!!');
+} 
+
+if (akys === 'Zalios') {
+    console.log('Sexy 🥰😍');
+}
+
+if (akys === 'Rudos') {
+    console.log('Melagis? 🤔');
+} 
+
+if (akys === 'Pilkos') {
+    console.log('Niekuo neypatingi...');
+}
+
+if (akys ==='Raudonos') {
+    console.log('🤙🤙🤙');
+}
+
+if (akys !=='Melynos' && 
+    akys !=='Zalios' && 
+    akys !== 'Rudos' && 
+    akys !== 'Pilkos' && 
+    akys ==='Raudonos') {
+    console.log('A tu turi akis?');
+}
+
