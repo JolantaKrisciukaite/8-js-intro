@@ -20,7 +20,7 @@ const viengubaKabute = "Čia yra dviguba (') kabutė.";
 console.log(viengubaKabute);
 
 // Turiu viengubą (') ir dvigubą (") kabutes.
-// (\") - igboravimas, kad simbolis taptų turinio dalimi.
+// (\") - ignoravimas, kad simbolis taptų turinio dalimi.
 const viengubaDviguba = "Turiu viengubą (') ir dvigubą (\") kabutes."
 console.log(viengubaDviguba);
 
