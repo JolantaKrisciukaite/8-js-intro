@@ -7,10 +7,10 @@ Sąlygos sakiniai - iššakoti logiką pagal ką daryti kai daugiau / mažiau,
 tiesa/netiesa. 
 (Galime skaidyti logiką į atskiras šakas)
 
-Ciklai - kai turime sąrašą su informacija, kuri yra vienodos strukturos.
+Ciklai - kai turime sąrašą su informacija, kuri yra vienodos struktūros.
 
 (Sąrašas, kuriame yra tik skaičiai. Sąrašą galime sususmuoti, jeigu tai 
-yra pažymai. Surasti didžiausią ar mažiausią pažymį, medianą, pažymių 
+yra pažymiai. Surasti didžiausią ar mažiausią pažymį, medianą, pažymių 
 vidurkį ir t.t. Tai yra darbas su sąrašais)
 (Kiek yra pažymių, kurie yra daugiau už 5?)
 
@@ -26,8 +26,3 @@ naršyklėje.)
 
 */
 
-/*
-
-
-
-*/
