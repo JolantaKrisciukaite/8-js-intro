@@ -3,7 +3,7 @@ IF STATMENT:
 
 logikos sablonai
 if () {}
-if () {} else if {}
+if () {} else {}
 if () {} else if {}
 if () {} else if {} ... else if {}
 if () {} else if {} ... else if {} else {}
