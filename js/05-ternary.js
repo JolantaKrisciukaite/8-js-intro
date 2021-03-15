@@ -41,7 +41,7 @@ console.log(ats2);
 console.log('------------');
 
 
-const pazymiai = [5, 10, 7]
+const pazymiai = [7, 10, 7]
 const suma = pazymiai[0] + pazymiai[1] + pazymiai[2];
 
 const vidurkis = suma / pazymiai.length;
@@ -49,3 +49,4 @@ console.log(vidurkis);
 
 
 console.log('------------');
+
