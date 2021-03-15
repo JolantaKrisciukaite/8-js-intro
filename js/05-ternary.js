@@ -15,7 +15,7 @@ palyginimas? true : false
 const a = 5;
 const b = 7;
 
-let ats = '';
+let ats = ''; // let, nes ketiname pakeisti kintamojo reiksme. Jeigu butu const - butu klaida.
 
 if (a > b) {
     ats = 'daugiau';
@@ -47,6 +47,4 @@ const suma = pazymiai[0] + pazymiai[1] + pazymiai[2];
 const vidurkis = suma / pazymiai.length;
 console.log(vidurkis);
 
-
-console.log('------------');
 
