@@ -1,25 +1,31 @@
 /*
 
+FOR LOOP (ciklas): 
 
+for () {} - (nurodome, koki funkcionaluma norime daryti, parametrai, kaip tai norime daryti), 
+{logikos blokas, ka norime daryti, kiekvienos iteracijos metu}
 
 */
 
 
-const rytas = ['r', 'y', 't', 'a', 's'];
+const abc = ['r', 'y', 't', 'a', 's'];
 
 let zodis = '';
-let rytasIndex = 0;
+let abcIndex = 0;
 
-zodis += rytas[rytasIndex++];
-zodis += rytas[rytasIndex++];
-zodis += rytas[rytasIndex++];
-zodis += rytas[rytasIndex++];
-zodis += rytas[rytasIndex++];
+zodis += abc[abcIndex++];    
+zodis += abc[abcIndex++];
+zodis += abc[abcIndex++];
+zodis += abc[abcIndex++];
+zodis += abc[abcIndex++];
 
 console.log(zodis);
 
 
-for (let i = 3; i <= 5; i++) {
+console.log('------------');
+
+
+for (let i = 1; i <= 5; i++) {
     console.log(i);
 }
 
@@ -29,7 +35,7 @@ console.log('ciklo pabaiga');
 console.log('------------');
 
 
-const zmones = ['Petras', 'Maryte', 'Jonas', 'Onute', 'Eligijus'];  // arejus - SARASAS, miau miau
+const zmones = ['Petras', 'Maryte', 'Jonas', 'Onute', 'Eligijus'];  // arejus - SARASAS
 
 for ( let i = 0; i < zmones.length; i++ ) {
     const vardas = zmones[i];
@@ -41,16 +47,15 @@ for ( let i = 0; i < zmones.length; i++ ) {
 console.log('------------');
 
 
-const marks = [5, 7, 10, 4, 2, 10, 8];  // ciklas yra pasikartojancio ciklo rinkinys, paimti sekanti nari ir prisumuoti 
+const marks = [5, 7, 10, 4, 2, 10, 8, 9, 1, 3];  
 let sum = 0;
+// ciklas yra pasikartojancio ciklo rinkinys, paimti sekanti nari ir prisumuoti 
 
-
-for (let i = 0; i < marks.length; i++) {   // ejimas per sarasa // 7 - nariu kiekis sarase 
+for (let i = 0; i < marks.length; i++) {   
     const pazymys = marks[i];
     sum += pazymys;
-
-    sum += marks[i];
 }
+// ejimas per sarasa // 7 - nariu kiekis sarase 
 
 const average = sum / marks.length;
 
@@ -62,14 +67,13 @@ console.log('------------');
 
 const sakinys = 'Labas rytas';
 
-console.log(sakinys[2]);
-
 
 for (let i = 0; i < sakinys.length; i++) {
-    const simbolis = sakinys [i];
+    const simbolis = sakinys[i];
     console.log(simbolis);
-
 }
+
+
 
 
 
