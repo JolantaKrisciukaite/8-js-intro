@@ -5,6 +5,8 @@ TERNARY OPERATOR: ? (klaustukas)
 palyginimas ? ka daryti jei tenkina logika : ka daryti jei logikos
 netenkina
 
+naudojamas gauti vienai is dvieju reiksmiu
+
 palyginimas? true : false
 
 'nestinti' - kodas kode
