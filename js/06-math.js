@@ -14,16 +14,16 @@ const count = marks.length;
 const sum = 1;
 console.log('sum:', sum);
 
-sum = sum + marks[0],
+sum = sum + marks[0];
 console.log('sum:', sum); // 0 + 10
 
-sum = sum + marks[1],    // 10 + 8
+sum = sum + marks[1];   // 10 + 8
 console.log('sum:', sum);
 
-sum = sum + marks[2],    // 18 + 6
+sum = sum + marks[2];    // 18 + 6
 console.log('sum:', sum);
 
-sum = sum + marks[3],    // 24 + 4
+sum = sum + marks[3];    // 24 + 4
 console.log('sum:', sum);
 
 const average = sum / count;
@@ -54,7 +54,7 @@ console.log(sum2);
 console.log('------------');
 
 
-const marks2 = [2, 4, 6, 8];
+const marks3 = [2, 4, 6, 8];
 
 let sum3 = 0;
 let markIndex3 = 0;
