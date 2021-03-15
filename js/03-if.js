@@ -15,7 +15,6 @@ palyginimo sablonai:
 - nenaudotini: ==, != (nes nera tikrinamas reiksmiu tipas)
 
 loginiai operatoriai: &&, ||
-
 */
 
 const a = 7;
