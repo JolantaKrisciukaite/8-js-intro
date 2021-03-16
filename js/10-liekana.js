@@ -13,8 +13,8 @@ Skaičių intervale tarp 0 ir 11, besidalijančių be liekanos iš 5 yra 3 viene
 
 */
 
-const nuo = -18000000;
-const iki = 1800000;
+const nuo = 100;
+const iki = 200;
 const daliklis = 5;
 let kiekis = 0;
 
@@ -24,13 +24,10 @@ for (let i = nuo; i <= iki; i++) {
     }
 }
 
-const ats = `Skaiciu intervale tarp ${nuo} ir ${iki}, besidalijanciu
-be liekanos is ${daliklis} yra ${kiekis} vienetai.`;
+const ats = `Skaiciu intervale tarp ${nuo} ir ${iki}, 
+besidalijanciu be liekanos is ${daliklis} yra ${kiekis} vienetai.`;
 
 console.log(ats);
-
-
-console.log('------------');
 
 
 /*

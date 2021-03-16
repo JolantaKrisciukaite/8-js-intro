@@ -4,6 +4,7 @@ Suskaičiuoti ką gausime susumavus skaičius intervale tarp (imtinai):
 ATS: 
 Intervale nuo 0 iki 4 suma yra 10.
 
+
 Sudelioti pagal lengvuma:
 
 0 - 4         = 10
@@ -16,6 +17,9 @@ Sudelioti pagal lengvuma:
 0 - 0         = 0
 0 - 999999999 = astronomiskai didelis skaicius 
 (perdidelis skaicius, atsakymas buv su klaida)
+
+Jeigu yra daugyba arba dalyba let suma = 1.
+Sudeties atveju turi buti let suma = 0.
 
 */
 
