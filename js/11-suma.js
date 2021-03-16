@@ -1,4 +1,6 @@
-/* const a = 8;
+/* 
+
+const a = 8;
 const b = 5;
 
 const s = (a + b) * 10;
@@ -57,5 +59,49 @@ function labas(vardas, amzius, vietovardis) {
 labas('Petras', 88, 'vilnius');
 labas('Maryte', 77, 'kaunas');
 labas('Alphe', 1, 'namie');
+
+
+
+// f(x) = x * x;
+
+function kvadratu(x) {
+    console.log(x * x);
+}
+
+kvadratu(5)
+kvadratu(10)
+kvadratu(15)
+kvadratu(25)
+
+
+ // Pavyzdys is 'reverse' aplanko
+
+
+const pirmasZodis = 'abcdef';
+
+function reversStrings(text) {
+    let reverse = '';
+
+for (let i = 0; i < text.length; i++) {
+     reverse = text[i] + reverse;
+}
+
+    console.log(text, '->', reverse);
+}
+
+
+console.log('------------'); 
+
+/* kaip 'abcdef' parasyti, is kitos puses, naudojant funkcija */ 
+
+
+const pirmasZodis2 = 'Labas rytas';
+reversStrings(pirmasZodis2);
+
+reversStrings('Lietuva');
+reversStrings('sedek uzu kedes');
+reversStrings('sula');
+
+
 
 

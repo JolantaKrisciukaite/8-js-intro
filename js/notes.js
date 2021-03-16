@@ -26,3 +26,24 @@ naršyklėje.)
 
 */
 
+/*
+
+if - (skliaustuose) gauname patikrinima. Kas yra  <, >, ===, !==
+
+switch - (skliaustuose) gauname parametra ko ieskoti keisuose.
+
+for - (skliaustuose) gauname tris parametru grupes, nuo ko pradeti, 
+iki kada galima testi, kaip keisti iteracijos kintamaji.
+
+function - (skliaustuose) gauname parametrus, su kuriais turesime
+dirbti. Funkcija yra uzdara 'eko sistema'. 
+Funkcijai negalima rasyti let'u ir const'antu! Tiesiog yra skiriamas
+kintamojo pavadinimas.
+
+*/
+
+/*
+
+(parametrai); {logika}; [arejus]
+
+*/
