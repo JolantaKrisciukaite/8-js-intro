@@ -56,4 +56,23 @@ console.log(text, '->', reverse);
 */
 
 
+function reversStrings(text) {
+    let reverse = '';
+
+for (let i = 0; i < text.length; i++) {
+     reverse = text[i] + reverse;
+}
+
+    console.log(text, '->', reverse);
+}
+
+
+const pirmasZodis = 'Labas rytas'
+reversStrings(pirmasZodis);
+
+reversStrings('Lietuva');
+reversStrings('sedek uzu kedes');
+reversStrings('sula');
+
+
 
