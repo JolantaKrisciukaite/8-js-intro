@@ -74,6 +74,11 @@ for (let i = 0; i < sakinys.length; i++) {
 }
 
 
+console.log('------------');
+
+
+
+
 
 
 
