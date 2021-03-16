@@ -13,8 +13,8 @@ Skaičių intervale tarp 0 ir 11, besidalijančių be liekanos iš 5 yra 3 viene
 
 */
 
-const nuo = 0;
-const iki = 11;
+const nuo = -18000000;
+const iki = 1800000;
 const daliklis = 5;
 let kiekis = 0;
 
@@ -28,6 +28,37 @@ const ats = `Skaiciu intervale tarp ${nuo} ir ${iki}, besidalijanciu
 be liekanos is ${daliklis} yra ${kiekis} vienetai.`;
 
 console.log(ats);
+
+
+console.log('------------');
+
+
+const nuo = -18000000;
+const iki = 1800000;
+const daliklis = 5;
+let kiekis = 0;
+
+for (let i = nuo; i <= iki; i++) {
+    if (i % daliklis === 0) {
+        kiekis ++;
+    }
+}
+
+const ats = `Skaiciu intervale tarp ${nuo} ir ${iki}, besidalijanciu
+be liekanos is ${daliklis} yra ${kiekis} vienetai.`;
+
+console.log(ats);
+
+
+/*
+
+11 - 20   / 5
+
+15, 20              (iki - nuo) / daliklis + 1
+
+i += daliklis
+
+*/ 
 
 
 
