@@ -28,18 +28,23 @@ naršyklėje.)
 
 /*
 
-if - (skliaustuose) gauname patikrinima. Kas yra  <, >, ===, !==
+1. if - (skliaustuose) gauname patikrinima. Kas yra  <, >, ===, !==
 Kai yra klausimas 'Jeigu' - tada spresime su if'u.
 
-switch - (skliaustuose) gauname parametra ko ieskoti keisuose.
+2. switch - (skliaustuose) gauname parametra ko ieskoti keisuose.
 
-for - (skliaustuose) gauname tris parametru grupes, nuo ko pradeti, 
+3. for - (skliaustuose) gauname tris parametru grupes, nuo ko pradeti, 
 iki kada galima testi, kaip keisti iteracijos kintamaji.
 
-function - (skliaustuose) gauname parametrus, su kuriais turesime
+4. function - (skliaustuose) gauname parametrus, su kuriais turesime
 dirbti. Funkcija yra uzdara 'eko sistema'. 
 Funkcijai negalima rasyti let'u ir const'antu! Tiesiog yra skiriamas
 kintamojo pavadinimas.
+
+5. ? - ternary operator - similar to if...else...else if...else.
+
+6. isNaN , '' + (pakeicia i bet koki simboli i tekstini varianta), 
+   -Math.abs , !isFinite - naudojami parametru validacijose.
 
 */
 
@@ -49,4 +54,5 @@ kintamojo pavadinimas.
 
 */
 
-// Boolean - true or false.
+// Boolean - means 'true or false'.
+
