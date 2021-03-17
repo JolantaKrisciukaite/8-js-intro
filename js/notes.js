@@ -44,7 +44,19 @@ kintamojo pavadinimas.
 5. ? - ternary operator - similar to if...else...else if...else.
 
 6. isNaN , '' + (pakeicia i bet koki simboli i tekstini varianta), 
-   -Math.abs , !isFinite - naudojami parametru validacijose.
+-Math.abs , !isFinite - naudojami parametru validacijose.
+
+7. Skaiciu aplavinimo funkcija:
+
+Jeigu norime apvalinti i apacia (i grindis) - Math.floor().
+Numeta viska, kas yra po kablelio.
+Apvalinama iki artimiausio sveiko skaiciaus, i mazesne puse.
+
+Jeigu norime apvalinti i virsu (link lubu) - Math.ceil().
+Apvalins i didesne puse.
+
+Jeigu norime apvalinti pagal matematine taisykle - Math.round().
+Apvalina, kaip iprastoje matematikoje.
 
 */
 
