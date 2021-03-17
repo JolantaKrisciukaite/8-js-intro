@@ -29,6 +29,7 @@ naršyklėje.)
 /*
 
 if - (skliaustuose) gauname patikrinima. Kas yra  <, >, ===, !==
+Kai yra klausimas 'Jeigu' - tada spresime su if'u.
 
 switch - (skliaustuose) gauname parametra ko ieskoti keisuose.
 
@@ -47,3 +48,5 @@ kintamojo pavadinimas.
 (parametrai); {logika}; [arejus]
 
 */
+
+// Boolean - true or false.
