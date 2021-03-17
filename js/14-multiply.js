@@ -1,4 +1,7 @@
 
+    // PATIKROS 
+    // isNaN , '' + , Math.abs , !isFinite
+
 function daugyba(a, b) {
 
     // parametru validacija
@@ -18,9 +21,32 @@ function daugyba(a, b) {
     if (typeof b !== 'number') {
         return 'Antrasis parametras turi buti skaiciaus tipo';
     }
+
     if (!isFinite(b)) {
         return `Antrasis parametras turi buti normalus skaicius ir negali buti ${b}`;
     }
+
+    /*   
+    
+    Dar vienas galimas variantas.
+    Prie betkokio elemento pridejus '' - gauname tekstini elementa.
+
+    if (typeof a !== 'number') {    
+        return 'Pirmasis parametras turi buti skaiciaus tipo';
+
+    if ('' + a === 'NaN' || Math.abs(a) === Infinity) {
+        return `Pirmasis parametras turi buti normalus skaicius ir negali buti ${a}`;
+    }
+
+    if (typeof b !== 'number') {
+        return 'Antrasis parametras turi buti skaiciaus tipo';
+    }
+
+    if ('' + a === 'NaN' || Math.abs(a) === Infinity) {
+        return `Antrasis parametras turi buti normalus skaicius ir negali buti ${b}`;
+    }
+
+    */
 
     // logika
     const rez = a * b;
