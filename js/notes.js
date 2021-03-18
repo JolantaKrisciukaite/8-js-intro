@@ -70,6 +70,13 @@ kurie yra su kablelius pvz.: 3.14 ---> 3.14.
 
 12.!Array.isArray(list) - rasome, kuomet kreipiames i arejaus sarasa.
 
+13. continue - ne eik toliau vykdyti logika, o eik i sekancia ciklo iteracija.
+Eina i sekancia ciklo iteracija.
+
+14. isFinite - baigtinis skaicius.
+Testams naudojame: infinity, null, NaN, [], (), {}, minusines reiksmes,
+true, false.
+
 */
 
 /*
