@@ -58,6 +58,14 @@ Apvalins i didesne puse.
 Jeigu norime apvalinti pagal matematine taisykle - Math.round().
 Apvalina, kaip iprastoje matematikoje.
 
+8. % - padeda apskaiciuoti liekana.
+
+9. parseInt - ('3.14abrakadabra')- is teksto istraukia sveikus skaicius,
+pvz.: 3.14 ---> 3.
+
+10. parseFloat- ('3.14abrakadabra')- is teksto istraukia skaicius, 
+kurie yra su kablelius pvz.: 3.14 ---> 3.14.
+
 */
 
 /*
