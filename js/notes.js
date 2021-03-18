@@ -66,6 +66,10 @@ pvz.: 3.14 ---> 3.
 10. parseFloat- ('3.14abrakadabra')- is teksto istraukia skaicius, 
 kurie yra su kablelius pvz.: 3.14 ---> 3.14.
 
+11. Key value - objektus sudaro raktazodis ir reiksme.
+
+12.!Array.isArray(list) - rasome, kuomet kreipiames i arejaus sarasa.
+
 */
 
 /*
