@@ -64,7 +64,7 @@ Apvalina, kaip iprastoje matematikoje.
 pvz.: 3.14 ---> 3.
 
 10. parseFloat- ('3.14abrakadabra')- is teksto istraukia skaicius, 
-kurie yra su kablelius pvz.: 3.14 ---> 3.14.
+kurie yra su kableliu (desimtainiai skaiciai) pvz.: 3.14 ---> 3.14.
 
 11. Key value - objektus sudaro raktazodis ir reiksme.
 
@@ -76,6 +76,40 @@ Eina i sekancia ciklo iteracija.
 14. isFinite - baigtinis skaicius.
 Testams naudojame: infinity, null, NaN, [], (), {}, minusines reiksmes,
 true, false.
+
+15. Skaitmenys - skaiciu abecele.
+
+16. Skaiciai - tarsi zodziai.
+
+17. undefind - kai mes isvis nieko neplanavome tureti.
+Kas cia per daiktas?
+
+18. null - kai rezervuojames / planuojames kazkokia reiksme.
+
+19. % 1 !=== 0 rasome, kai turime desimtaine dali ir ja sumaziname 1 vienetu.
+
+20. ++ didina vieunu vienetu, -- mazina vienu vienetu.
+
+21. '' - tuscias tekstas.
+
+22. Teksto konvertavimas i skaiciu 
+    const tekstinisSkaicius = skaicius.toString().
+
+    arba
+
+    const tekstinisSkaicius = '' + skaicius;
+    let tekstinisSkaicius = tekstinisSkaicius.lenght;
+
+23. Kaip eliminuoti minusine reiksme?
+    const absoliutas = Math.abs(skaicius);
+    let tekstinisSkaicius = '' + absoliutas;
+    let tekstinisSkaicius = tekstinisSkaicius.lenght;
+
+    arba
+
+    if (skaicius < 0) {
+        skaitmenuKiekis--;
+    }
 
 */
 
