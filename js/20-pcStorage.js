@@ -13,10 +13,10 @@ function storage(folder) {
       //  console.log(child);
 
         if (child.type === 'file') {
-            totalSize += child.size
+            totalSize += child.size;
 
         } else if (child.type === 'folder') {
-            totalSize += storage(child)
+            totalSize += storage(child);
         }
         
     }
