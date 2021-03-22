@@ -1,5 +1,7 @@
 
-// Antras pagal diduma skaicius
+// Funkcija pavadinimu 'antrasPagalDidumaSkaicius'
+// Ieskome antro, pagal diduma, unikalaus skaiciaus.
+
 
 function bigNum(list) {
     // input validation
