@@ -1,9 +1,12 @@
 
 /*
+
 Rasti didziausia skaiciu bet kokio sudetingumo array'juje.
+
 Salygos: 
 - visi array elementai yra: arba skaicius, arba array;
-- visi skaiciai yra normalus
+- visi skaiciai yra normalus.
+
 */
 
 function recMaxNum(list) {
@@ -54,4 +57,3 @@ const data = [
 
 const biggest = recMaxNum(data);
 console.log(biggest);
-© 2021 GitHub, I

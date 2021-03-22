@@ -119,6 +119,7 @@ Kas cia per daiktas?
     Pagrindine esme, kad strukturos struktura kartotusi.
 
     Rekursija yra tarsi medis: kamienas, sakos, subsakos ir t.t.
+    Kuo daugiau duomenu - tuo daugiau atminties eikvoja.
 */
 
 /*
