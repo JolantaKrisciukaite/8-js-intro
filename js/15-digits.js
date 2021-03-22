@@ -1,3 +1,4 @@
+
 function digits(skaicius) {
     // input validation
     if (typeof skaicius !== 'number') {

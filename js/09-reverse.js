@@ -1,3 +1,4 @@
+
 /*
 
 panaudojant ciklą perrašyti tekstinio tipo kintamųjų 

@@ -1,3 +1,4 @@
+
 /*
 
 SWITCH STATEMENT: (turi tik viena klausima. 

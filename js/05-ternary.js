@@ -1,3 +1,4 @@
+
 /*
 
 TERNARY OPERATOR: ? (klaustukas)

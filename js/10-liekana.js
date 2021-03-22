@@ -1,3 +1,4 @@
+
 /*
 
 Suskaičiuoti, kiek nurodytame intervale yra skaičių, kurie dalijasi be liekanos 

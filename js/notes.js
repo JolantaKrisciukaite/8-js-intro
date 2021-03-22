@@ -46,7 +46,7 @@ kintamojo pavadinimas.
 6. isNaN , '' + (pakeicia i bet koki simboli i tekstini varianta), 
 -Math.abs , !isFinite - naudojami parametru validacijose.
 
-7. Skaiciu aplavinimo funkcija:
+7. Skaiciu apvalinimo funkcija:
 
 Jeigu norime apvalinti i apacia (i grindis) - Math.floor().
 Numeta viska, kas yra po kablelio.
@@ -88,11 +88,12 @@ Kas cia per daiktas?
 
 19. % 1 !=== 0 rasome, kai turime desimtaine dali ir ja sumaziname 1 vienetu.
 
-20. ++ didina vieunu vienetu, -- mazina vienu vienetu.
+20. ++ didina vienu vienetu, -- mazina vienu vienetu.
 
 21. '' - tuscias tekstas.
 
 22. Teksto konvertavimas i skaiciu 
+
     const tekstinisSkaicius = skaicius.toString().
 
     arba
@@ -101,6 +102,7 @@ Kas cia per daiktas?
     let tekstinisSkaicius = tekstinisSkaicius.lenght;
 
 23. Kaip eliminuoti minusine reiksme?
+
     const absoliutas = Math.abs(skaicius);
     let tekstinisSkaicius = '' + absoliutas;
     let tekstinisSkaicius = tekstinisSkaicius.lenght;
@@ -111,6 +113,12 @@ Kas cia per daiktas?
         skaitmenuKiekis--;
     }
 
+24. Rekursija - tai yra dar vienas algoritmas.
+    Lygiai kaip ieskoti didziausio ar maziausio skaiciaus.
+    Su rekursija yra imanoma ieskoti atitinkamu reiksmiu sudetingose strukturose.
+    Pagrindine esme, kad strukturos struktura kartotusi.
+
+    Rekursija yra tarsi medis: kamienas, sakos, subsakos ir t.t.
 */
 
 /*

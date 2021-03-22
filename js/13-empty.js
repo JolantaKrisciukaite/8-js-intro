@@ -1,3 +1,4 @@
+
 function tusciaFunkcija() {
     return undefined;
 }

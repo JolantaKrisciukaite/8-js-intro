@@ -1,3 +1,4 @@
+
 function bigNum(list) {
     // input validation
     if (!Array.isArray(list)) {
