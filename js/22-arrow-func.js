@@ -1,6 +1,7 @@
 
 // iprasta funkcija
 
+
 function suma(a, b) {
     return a + b;
 }
@@ -8,7 +9,9 @@ function suma(a, b) {
 const atsSuma = suma(8, 5);
 console.log(atsSuma);
 
-/***************************************/
+
+console.log('------------');
+
 
 // bevardes funkcijos priskirimas kintamajam
 const atimtis = function (a, b) {
@@ -18,7 +21,9 @@ const atimtis = function (a, b) {
 const atsAtimtis = atimtis(8, 5);
 console.log(atsAtimtis);
 
-/***************************************/
+
+console.log('------------');
+
 
 // arrow function priskirimas kintamajam
 const daugyba = (a, b) => {
@@ -28,7 +33,9 @@ const daugyba = (a, b) => {
 const atsDaugyba = daugyba(8, 5);
 console.log(atsDaugyba);
 
-/***************************************/
+
+console.log('------------');
+
 
 // arrow function priskirimas kintamajam
 // jeigu logika turi tik viena procedura, tai galima nerasyti {} ir return
@@ -37,7 +44,9 @@ const dalyba = (a, b) => a / b;
 const atsDalyba = dalyba(8, 5);
 console.log(atsDalyba);
 
-/***************************************/
+
+console.log('------------');
+
 
 // arrow function priskirimas kintamajam
 // jeigu logika turi tik viena procedura, tai galima nerasyti {} ir return
@@ -48,9 +57,8 @@ const atsKvadratu = kvadratu(8);
 console.log(atsKvadratu);
 
 
-/***************************************/
-/***************************************/
-/***************************************/
+console.log('------------');
+
 
 const vardas = 'Pedro';
 
