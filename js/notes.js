@@ -120,6 +120,9 @@ Kas cia per daiktas?
 
     Rekursija yra tarsi medis: kamienas, sakos, subsakos ir t.t.
     Kuo daugiau duomenu - tuo daugiau atminties eikvoja.
+
+25. Kintamieji yra primityvus ir kompleksiniai.
+
 */
 
 /*
