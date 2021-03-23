@@ -173,7 +173,7 @@ doubleList.forEach(
 
 /* 
 map() metodas perejes per duota sarasa grazina tokio pacio dydzio
-sarasa, tik su pakeiastomis reiksmemis.
+sarasa, tik su pakeistomis reiksmemis.
 */
 
 
