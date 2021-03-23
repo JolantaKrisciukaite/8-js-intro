@@ -123,6 +123,12 @@ Kas cia per daiktas?
 
 25. Kintamieji yra primityvus ir kompleksiniai.
 
+26. Arrow function - '=>'. Sutrumpinta funkcijos versija.
+
+27. Math.random(tusti skliaustai) - naudojame atsitiktiniam skaiciui rasti.
+
+28. ** - daugyba kvadratu.
+
 */
 
 /*

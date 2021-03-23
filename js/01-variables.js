@@ -1,5 +1,4 @@
 
-
 console.log(84555);
 console.log(3.141529654);
 console.log(3, 141529654);

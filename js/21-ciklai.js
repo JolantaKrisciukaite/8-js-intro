@@ -4,7 +4,7 @@
 JS galimi ciklai ir 'cikliskos' funkcijos / metodai:
 
 (funkcijos) 
-// tai papildomi budai, isreiksiantis for'a
+// tai papildomi budai, isreiksiantys for'a
 - for
 - for-in
 - for-of
