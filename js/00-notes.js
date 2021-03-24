@@ -32,6 +32,9 @@ naršyklėje.)
 Kai yra klausimas 'Jeigu' - tada spresime su if'u.
 
 2. switch - (skliaustuose) gauname parametra ko ieskoti keisuose.
+Naudojamas tada, kai dirbame su zodynu, kai zinome visas konkrecias 
+galimas reiksmes. Lygus - nelygus ir t.t.
+
 
 3. for - (skliaustuose) gauname tris parametru grupes, nuo ko pradeti, 
 iki kada galima testi, kaip keisti iteracijos kintamaji.
@@ -128,6 +131,10 @@ Kas cia per daiktas?
 27. Math.random(tusti skliaustai) - naudojame atsitiktiniam skaiciui rasti.
 
 28. ** - daugyba kvadratu.
+
+29. || - arba.
+
+30. && - ir.
 
 */
 
