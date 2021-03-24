@@ -290,6 +290,42 @@ const short = dictionary2.reduce((total, word) => total + word[0], '');
 console.log(short);
 
 
+console.log('------------');
+
+
+// SORT 
+
+
+const sortAbc = ['a', 'õ', 'c', 'fabrikas', 'fancy', 'baklazanas', 'Bermudai', 'd', 'Antanas'];
+const sortedAbc = sortAbc.sort();
+console.log(sortAbc);
+
+const sortList = [1, -5, 78, 2, 11, -14, 0, -3];  // isrikiuoja abeceles tvarka
+console.log(sortList.sort());
+
+// const sortedNumber = sortList.sort((a, b) => a - b ? -1 : 1);  
+
+const sortedNumber = [...sortList].sort((a, b) => b - a);  
+
+// prisiminti sita lygti ((a, b) => b - a); 
+// ? - ternary operator - jeigu yra taip, tai grazink ta ir ana
+
+console.log(sortedNumber);
+console.log(sortList);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
